@@ -484,7 +484,7 @@ const chapters = [
     
       const titleElement = document.getElementById('title');
       titleElement.classList.remove('random');
-      const chapterToShow = chapter.toString().length === 1 ? `0${chapter + 1}` : chapter + 1;
+      const chapterToShow = (chapter+1).toString().length === 1 ? `0${chapter + 1}` : chapter + 1;
       titleElement.innerHTML = `T${season + 1}xC${chapterToShow}: ${chapters[season][chapter].title}`;
     
       const descriptionElement = document.getElementById('description');
