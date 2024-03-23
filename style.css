@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f0e3; /* Light orange background */
+  text-align: center;
+}
+
+h1 {
+  color: #cc6600; /* Orange */
+  font-size: 4em;
+  margin-top: 50px;
+}
+
+button {
+  background-color: #cc6600; /* Orange */
+  color: #fff;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #993300; /* Darker orange */
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  white-space: pre-wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@keyframes randomize {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.random {
+  animation: randomize 1s ease-in-out forwards;
+}
+
+#chapterImage {
+  width: 450px;
+  height: auto; 
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+}
+
