@@ -69,3 +69,13 @@ p {
   border-radius: 5px;
 }
 
+.hidden {
+  opacity: 0;
+  font-size: small;
+}
+
+.visible {
+  opacity: 0.2;
+  font-size: small;
+}
+

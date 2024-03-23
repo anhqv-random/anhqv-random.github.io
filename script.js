@@ -498,5 +498,8 @@ const chapters = [
       setTimeout(() => titleElement.classList.add('random'), 5);
       setTimeout(() => descriptionElement.classList.add('random'), 5);
       setTimeout(() => imageElement.classList.add('random'), 5);
+
+    //   document.getElementById('footer').removeAttribute('hidden');
+      document.getElementById('footer').setAttribute('class', 'visible');
     }
     
